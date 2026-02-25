@@ -113,8 +113,12 @@ a {
     letter-spacing: 0.02em;
 }
 
-.team-item {
+.team {
     background-color: #f4f4fd;
+}
+
+.team-item {
+    background-color: #FFFFFF
 }
 
 .team-header {
