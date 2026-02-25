@@ -88,8 +88,17 @@ a {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
+    cursor: pointer;
 }
 
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #404bbf;
+}
+
+.features {
+    background-color: #FFFFFF;
+}
 .features-title {
     font-weight: 500;
     font-size: 20px;
@@ -115,6 +124,7 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 
 .team-member {
@@ -133,13 +143,17 @@ a {
     text-align: center;
 }
 
+.portfolio {
+    background-color: #FFFFFF
+}
 .portfolio-header {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize
 }
 
 .portfolio-title {
